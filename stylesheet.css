@@ -1,0 +1,19 @@
+#grid-container{
+  border: 5px solid black;
+  width: 800px;
+  /* width:500px; */
+  overflow: hidden;
+  justify-self: center;
+
+}
+.grid-item {
+  /* width: 35px;
+  height: 35px; */
+  /* background-color: lightblue; */
+  display:inline-block;
+  justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid rgb(224, 219, 219) ;
+  box-sizing: border-box;
+}
