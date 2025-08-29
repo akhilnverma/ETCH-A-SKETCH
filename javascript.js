@@ -31,8 +31,8 @@ for (let i = 0; i < rows; i++)
   for (let j = 0; j < columns; j++) {
     const gridItem = document.createElement('div');
     gridItem.classList.add('grid-item');
-    gridItem.style.width=`${800/choice}px`;
-    gridItem.style.height=`${800/choice}px`;
+    gridItem.style.width=`${400/choice}px`;
+    gridItem.style.height=`${400/choice}px`;
 
     // gridItem.textContent = `Cell ${i + 1}-${j + 1}`;
     gridItem.addEventListener("mouseover",()=>{
