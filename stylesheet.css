@@ -1,6 +1,6 @@
 #grid-container{
   border: 5px solid black;
-  width: 800px;
+  width: 400px;
   /* width:500px; */
   overflow: hidden;
   justify-self: center;
